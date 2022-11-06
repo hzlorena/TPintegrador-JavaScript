@@ -1,0 +1,52 @@
+
+
+/*centra todos los textos
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    padding: 1vh;
+    margin: 2vh 0;
+}*/
+/*texto en negrita*/
+h5{
+    font-weight: bold;
+}
+
+.card-group {
+    text-align: center;
+    margin-top: 2%;
+    width:65% ;
+   
+    
+}
+/*este es el contenedor padre del grupo de tarjetas,
+le digo que su contenido usa flebox y que debe estar centrado*/   
+.container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.formulario {
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+.botones {
+    width: max-content;
+}
+button {
+    width: 50%;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row; 
+   
+}
+/*para que los botones esten en la misma linea*/
+.elementos-inline {
+    display:inline-flex;
+    margin-bottom: 4%;
+}
+footer{
+    margin-bottom: 0%;
+}
